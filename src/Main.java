@@ -74,14 +74,36 @@ public class Main {
     public static void afiseaza2(){
         System.out.println("Avatar 2");
     }*/
-        Animal caine = new Animal("caine", "alb", false, 4);
+        /*Animal caine = new Animal("caine", "alb", false, 4);
         System.out.println(caine.nrPicioare);
 
         Animal papagal= new Animal("Papagal","galben",true,2);
         System.out.println(papagal.nrPicioare);
 
         Animal caracatita= new Animal("Caracatita","crem",false,8);
-        System.out.println(caracatita.nrPicioare);
+        System.out.println(caracatita.nrPicioare);*/
+
+
+        /*Elev elev1 = new Elev("Pop Andrei");
+        Elev elev2 = new Elev("Ionescu Maria");
+        Elev elev3 = new Elev("Popescu Vlad");
+        elev1.diriginte = "Diriginte1";
+        elev2.diriginte = "Diriginte2";
+        elev3.diriginte = "Diriginte3";
+
+        elev1.afisazaElevDiriginte();
+        elev2.afisazaElevDiriginte();
+        elev3.afisazaElevDiriginte();*/
+
+        Inotator inotator1 = new Inotator();
+        Maratonist maratonist1 = new Maratonist();
+        inotator1.seAntreneaza();
+        maratonist1.seAntreneaza();
+        inotator1.seOdihneste();
+        maratonist1.seOdihneste();
+
+
+
 
     }
 }
