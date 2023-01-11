@@ -28,13 +28,15 @@ public class Main {
         System.out.println("Gen: "+person3.gen);*/
 
 
-        /*Animal animal1 = new Animal();
+        Animal animal1 = new Animal();
         System.out.println(animal1.nume);
         System.out.println("Nume: "+animal1.nume+ " "+animal1.culoare);
-        animal1.culoare("Maro");
+        animal1.culoare="Maro";
 
         Animal animal2 = new Animal();
-        animal2.nume("Maimuta");*/
+        animal2.nume="Maimuta";
+        animal1.mananca();
+        animal2.doarme();
 
 
 
@@ -74,14 +76,19 @@ public class Main {
     public static void afiseaza2(){
         System.out.println("Avatar 2");
     }*/
-        /*Animal caine = new Animal("caine", "alb", false, 4);
+        Animal caine = new Animal("caine", "alb", false, 4);
         System.out.println(caine.nrPicioare);
 
         Animal papagal= new Animal("Papagal","galben",true,2);
         System.out.println(papagal.nrPicioare);
 
         Animal caracatita= new Animal("Caracatita","crem",false,8);
-        System.out.println(caracatita.nrPicioare);*/
+        System.out.println(caracatita.nrPicioare);
+
+        caracatita.afiseazaNrPicioare();
+        caracatita.setUndeTraieste("in apa");
+        System.out.println(caracatita.getUndeTraieste());
+
 
 
         /*Elev elev1 = new Elev("Pop Andrei");
@@ -95,14 +102,22 @@ public class Main {
         elev2.afisazaElevDiriginte();
         elev3.afisazaElevDiriginte();*/
 
-        Inotator inotator1 = new Inotator();
+        /*Inotator inotator1 = new Inotator();
         Maratonist maratonist1 = new Maratonist();
         inotator1.seAntreneaza();
         maratonist1.seAntreneaza();
         inotator1.seOdihneste();
-        maratonist1.seOdihneste();
+        maratonist1.seOdihneste();*/
 
 
+        /*SmartphoneIOS iphone = new SmartphoneIOS();
+        iphone.porneste();
+        iphone.seOpreste();
+        SmartphoneAndroid samsung = new SmartphoneAndroid();
+        samsung.porneste();
+        samsung.seOpreste();
+        Tableta tableta1 = new Tableta();
+        tableta1.seOpreste();*/
 
 
     }

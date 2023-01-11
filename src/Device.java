@@ -1,9 +1,5 @@
 abstract class Device {
-    abstract void porneste(){
-        System.out.println();
-    }
+    abstract void porneste();
 
-    abstract void seOpreste(){
-
-    }
+    abstract void seOpreste();
 }
